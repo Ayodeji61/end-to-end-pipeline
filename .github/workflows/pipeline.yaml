@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup NodeJS
-        uses: action/setup-node@v
+        uses: action/setup-node@v4
         with:
           node-version: "14"
 
