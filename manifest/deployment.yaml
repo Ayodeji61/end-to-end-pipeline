@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: planning-app
-        image: 100foldtechnologies/planning-app:v2
+        image: 100foldtechnologies/planning-app:f34fb381d96861c2e8480d5afa6863dda01eda09
         ports:
         - containerPort: 80
         resources:
