@@ -4,10 +4,11 @@ on:
   push:
     branches:
       - main
-#    paths-ignore:
-#      - 'manifest/***'   # will not run a build when the manifest is updated
+    paths-ignore:
+      - 'manifest/**'  # Ignores all files under manifest/ on push to main
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
   workflow_dispatch:
 
 
