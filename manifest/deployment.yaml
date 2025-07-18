@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: planning-app
+  namespace: planning-app
   labels:
     app: planning-app
 spec:
